@@ -1,0 +1,38 @@
+.inner-price-card-container{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-title > h2{
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-title > a{
+    color: #007185;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card-title > a:hover{
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+.price-card-container{
+    display: flex;
+    gap: 20px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}

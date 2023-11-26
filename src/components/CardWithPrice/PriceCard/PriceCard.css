@@ -1,0 +1,66 @@
+.card-container{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    min-width: 220px;
+}
+
+.price-card-image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discount{
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 6px;
+    background-color: #cc0c39;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.discount-scheme{
+    color: #cc0c39;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.currency{
+    font-size: 11px;
+    color: #0f1111;
+    position: relative;
+    top: -0.3em;
+}
+
+.price{
+    font-size: 17px;
+    font-weight: bold;
+    color: #0f1111;
+}
+
+.list-price{
+    font-size: 11px;
+    color: #565959;
+    padding-left: 4px;
+}
+
+.original-price{
+    text-decoration: line-through;
+    color: #565959;
+    padding-left: 4px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.price-card-footer{
+    font-size: 13px;
+    color: #0f1111;
+}

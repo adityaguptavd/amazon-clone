@@ -1,0 +1,41 @@
+.card{
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 420px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 349px;
+    height: 420px;
+    gap: 20px;
+}
+
+.card-title{
+    color: #0f1111;
+    font-size: 21px;
+    margin: 0;
+}
+
+.card-image-a{
+    height: 304px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-image{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-footer{
+    color: #007185;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.card-footer:hover{
+    color: #C7511F;
+    text-decoration: underline;
+}

@@ -1,0 +1,128 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.footer-sign-in{
+    width: 100%;
+    background-color: #fff;
+    height: 126px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-sign-in-span1{
+    color: #000;
+    font-size: 13px;
+}
+
+.footer-sign-in-btn{
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #eeb525 0%, #ffcc4c 100%);
+    width: 230px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-sign-in-span2{
+    font-size: 11px;
+    color: #000;
+}
+
+.footer-sign-in-span2 > a{
+    text-decoration: none;
+    padding-left: 3px;
+    color: #007185;
+    cursor: pointer;
+}
+
+.back-to-top-btn{
+    color: #ddd;
+    width: 100%;
+    height: 49px;
+    background-color: #37475a;
+    border: none;
+}
+
+.back-to-top-btn:hover{
+    cursor: pointer;
+    background-color: #485769;
+}
+
+.footer-about{
+    background-color: #232f3e;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.footer-about-card{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+h3{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.footer-about-card > p{
+    color: #ddd;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-language-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f3e;
+    border-top: 1px solid #ddddddb8;
+    height: 120px;
+    gap: 10px;
+}
+
+.footer-lang{
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding: 6px !important;
+}
+
+.footer-amazon-logo-img{
+    width: 76px;
+    height: 23px;
+    margin-right: 100px;
+}
+
+.footer-div{
+    text-align: left;
+    font-size: 13px;
+    display: inline-block;
+    padding: 8px;
+    width: 150px;
+    color: #ddddddb8;
+    border: 1px solid #ddddddb8;
+    border-radius: 5px;
+}
